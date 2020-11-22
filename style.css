@@ -1,0 +1,495 @@
+/* Définition des polices personnalisées */
+h1, a
+{
+    -webkit-text-stroke-width: 0.01em;
+    -webkit-text-stroke-color: white;
+    color: #194A36;
+}
+
+h1, h2, a
+{
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    color: #194A36;
+}
+
+/* Eléments principaux de la page */
+
+audio
+{
+    width: 100px;
+}
+
+#photo_preorder
+{
+    width: 155px;
+    height: 170px;
+}
+
+body
+{
+    background: url('image/fond_bois.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+p
+{
+    color: white;
+}
+
+#titre
+{
+    margin: 0 0 0 510px;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+#bloc_page2
+{
+    width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    background: url('image/separateur.png') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#titre
+{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#titre img
+{
+    width: 45px;
+    height: 45px;
+}
+
+#banniereduhaut
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#topbanner
+{
+    margin-top: 15px;
+    height: 150px;
+    border-radius: 5px;
+    background: url('image/banniere_2.png');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#topbanner2
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 55px;
+    padding-top: 15px;
+    padding-left: 4px;
+    
+    color: white;
+    font-size: 0.8em;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+header h1
+{
+    font-family: Impact;
+    font-size: 3.6em;
+    font-weight: normal;
+    margin: 10 0 0 500px;
+}
+
+header h2
+{
+    font-family: Arial, serif;
+    font-size: 0.8em;
+    margin-top: 0px;
+    margin: 0 0 0 0px;
+    font-weight: normal;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    padding-bottom: 8em;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+
+/* Bannière */
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 150px;
+    border-radius: 5px;
+    background: url('image/banniere_2.png');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 55px;
+    padding-top: 15px;
+    padding-left: 4px;
+    
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('image/fond_degraderouge.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.bouton_rouge img
+{
+    border: 0;
+}
+
+
+/* Corps */
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+    color: white;
+}
+
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+article h1
+{
+    text-align: center;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+
+}
+
+.ico_categorie, img
+{
+    height: 85px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: left;
+    border-radius: 5px;
+    padding: 1px;
+    color: white;
+    font-size: 0.9em;
+}
+
+aside p
+{
+    font-size: 0.8em;
+    color: white;
+
+}
+
+#fleche_bulle
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+#liapeter
+{
+    text-align: center;
+}
+
+#liapeter img
+{
+    border: 1px solid #181818;
+    height: 300px;
+
+}
+
+aside img
+{
+    margin-right: 5px;
+}
+
+#logo
+{
+    height: 100px;
+}
+
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    background: url('images/separateur.png') repeat-x top;
+    padding-top: 25px;
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+#tweet
+{
+    width: 28%;
+}
+
+#mes_photos
+{
+    width: 35%;
+}
+
+#mes_amis
+{
+    width: 31%;
+}
+
+#mes_photos img
+{
+    border: 1px solid #181818;
+    margin-right: 2px;
+}
+
+#listes_amis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+#mes_amis ul
+{
+    list-style-image: url('images/ico_liensexterne.png');
+    padding-left: 2px;
+}
+
+#mes_amis a
+{
+    text-decoration: none;
+    color: #760001;
+}
+
+#reseau
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu
+{
+    display: flex;
+    justify-content: center;
+}
+
+#menu img
+{
+    height: 350px;
+}
+
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#white
+{
+    color: white;
+}
+
+
+
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+
+
+    #banniere_image
+    {
+        width: auto;
+    }
+
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    
+    section
+    {
+    flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    
+    #fleche_bulle
+    {
+        display: none;
+    }
+    
+    #liapeter img
+    {
+        width: 160px;
+        height: 220px;
+        float: right;
+        margin-left: 15px;
+    }
+    
+    aside p:last-child
+    {
+        text-align: center;
+    }
+
+    header h1
+    {
+        font-family: Impact;
+        font-size: 3.6em;
+        font-weight: normal;
+        margin: 10 0 0 310px;
+    }
+
+    #titre
+    {
+        margin: 0 0 0 310px;
+    }
+
+    #bloc_page2
+    {
+        width: auto;
+    }
+}
+
+ 
